@@ -1,0 +1,32 @@
+.DS_Store
+
+# виртуальные машины и образы
+*.pvm
+*.hdd
+*.iso
+*.img
+
+# дампы памяти и артефакты анализа
+*.dmp
+*.core
+dumps/
+
+# проекты дизассемблеров (бинари)
+*.gpr
+*.rep
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.i64
+
+# python/venv
+__pycache__/
+*.py[cod]
+.venv/
+
+# сборка
+build/
+*.o
+*.a
